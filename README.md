@@ -1,5 +1,6 @@
 # payton
--[ ![Codeship Status for briankboyd/payton](https://codeship.com/projects/c805bdf0-984e-0132-2e69-662fc3dfee0d/status?branch=master)](https://codeship.com/projects/63361)
+[ ![Codeship Status for briankboyd/payton](https://codeship.com/projects/c805bdf0-984e-0132-2e69-662fc3dfee0d/status?branch=master)](https://codeship.com/projects/63361)
+
 Image gallery based off images in google drive.
 Using Google Drive as an image repository, we pull in those images and display them for a nice responsive viewing experience.
 
