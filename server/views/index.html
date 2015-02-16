@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payton</title>
+
+	<!--[if lt IE 10]> <html class="ie_ten"><![endif]-->
+
+	<!--initial-scale=1 = device reports correct screen size,  maximum-scale=1 = prevents zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale = 1">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600'>	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+ 
+<div class="header_wrapper">
+	<header>
+		<h1>Payton Reed Boyd</h1>
+	</header>
+</div>
+
+<div class="container" id="img_container">
+
+	{% for image in images.items %}
+		{% include "images.html" %}
+	{% endfor %}
+
+</div>
+     
+     <script src="js/flipImage.js" type="text/javascript"></script>
+</body>
+</html>
+
+
